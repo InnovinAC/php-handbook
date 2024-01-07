@@ -22,3 +22,21 @@ $b = &$a;
 $a = 2;
 echo $b; // prints 2
 ```
+
+
+# Echo hacks
+```php
+<?php echo "Hello"; ?>
+// is same as
+
+<?php echo "Hello" ?>
+
+// is also same as
+
+<?= "Hello"; ?>
+
+// is also same as
+
+<?= "Hello" ?>
+
+```
